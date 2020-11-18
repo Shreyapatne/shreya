@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdio.h>
+int main()
+{
+   char c[1000];
+   file((fptr = fopen("program.txt","r")) == NULL)
+   {
+   print("Error: openingfile")
+   exit(1)
+   }
+   scanf(fptr, "k[\n]",c);
+   printf("Date from the file :\n%s",c);
+   close(fptr)
+   
+   return 0;
+}   
